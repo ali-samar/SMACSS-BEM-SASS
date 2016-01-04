@@ -1,21 +1,26 @@
 {
-  "name": "SMACSS-BEM-SASS",
+  "name": "base",
   "version": "0.0.0",
-  "description": "Atelier du 04/01/16 SMACSS-BEM-SASS",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ali-samar/SMACSS-BEM-SASS.git"
+    "url": "https://github.com/Floune/SimplonMIP.git"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
+  "author": "Amine El Ghayate",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ali-samar/SMACSS-BEM-SASS/issues"
+    "url": "https://github.com/Floune/SimplonMIP/issues"
   },
-  "devDependencies": {
-    "gulp-sass": "~2.1.1"
+  "homepage": "https://github.com/Floune/SimplonMIP",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "mustache": "^2.2.1",
+    "semantic-ui-css": "^2.1.6",
+    "senna": "^0.4.1",
+    "gulp-sass": "^2.1.1"
   }
 }

@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Simplon Midi Pyrénées</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
+    <link rel="stylesheet" href="node_modules/senna/build/senna.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="wrap">
+                <ul class="menu">
+                    <a href="/"><img src="img/logo.png" alt="Logo de Simplon" class="logo"></a>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/pages/promotion.html">Promotions</a></li>
+                    <li><a href="/pages/info.html">Formation</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>            
+    </header>
+    <section class="container wrapper" id="content">
+        <div id="content-default">
+            <div id="slider">
+                <ul id="liste-images">
+                    <li class="image-slider">
+                        <img src="../img/promo1.jpg" alt="Images de présentation" />
+                    </li>
+                    <li class="image-slider">
+                        <img src="../img/promo2.jpg" alt="Images de présentation" />
+                    </li>
+                </ul>
+            </div>
+            <section id="news">   
+                <h1>News de la promo !</h1>
+                <article>
+                    <h2>Titre 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum harum libero perspiciatis eveniet esse, et amet similique sunt maiores minima rerum qui ut aut, modi nesciunt minus dicta? Reiciendis.</p>
+                </article>
+                <article>
+                    <h2>Titre 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur architecto sed reprehenderit ratione ipsum blanditiis similique a fugit error consequatur quod quaerat earum assumenda tempora pariatur, laboriosam delectus, expedita amet.</p>
+                </article>
+            </section>
+            <aside class="twitterbar">
+                <a href="https://twitter.com/simplonMIP" data-widget-id="679289837170610176" height="400">Tweets de @simplonMIP</a>
+                <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                </script>
+            </aside>
+        </div>
+        <div class="push">
+        </div>
+    </section>
+    <div id="bandeau-content">
+        <h4>Ils nous soutiennent !</h4>
+        <img src="../img/active.png" alt="Logo Active"/>
+        <img src="../img/allianz.jpg" alt="Logo Allianz"/>
+        <img src="../img/bpi.png" alt="Logo Bpi"/>
+        <img src="../img/investir.jpg" alt="Logo Investir"/>
+        <img src="../img/microsoft.png" alt="Logo Microsoft"/>
+        <img src="../img/promissio.png" alt="Logo Promissio"/>
+        <img src="../img/sncf.jpg" alt="Logo Sncf"/>
+        <img src="../img/sncfbis.png" alt="Logo Sncf bis"/>
+    </div>
+    <div class="footer">
+        <a href="#">Contact</a>
+        <a href="#">Mentions légales</a>
+        <a href="www.simplon.co">Simplon.co</a>
+    </div>
+
+<!-- chargement des scripts -->
+
+<script id="template" type="x-tmpl-mustache">
+  <div class="ui three column grid">
+    {{#users}}
+
+    <div class="column carte">
+        <div class="perso ui segment"> 
+            <img src="{{pictures.small}}" alt="{{first_name}} {{last_name}}" class="ui tiny circular image">
+            <p class="nomprenom">{{first_name}} {{last_name}}</p>
+            <p class="occupation">{{occupation}}</p>
+            <button class="tiny ui button">En savoir plus</button>
+        </div>
+    </div>
+
+    {{/users}}
+</div>
+</script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
+<script src="node_modules/senna/build/senna.js"></script>
+<script src="node_modules/mustache/mustache.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

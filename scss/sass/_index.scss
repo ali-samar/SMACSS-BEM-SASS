@@ -1,0 +1,181 @@
+$gris99:#FCFCFC;
+$gris40:#666;
+$rose:#ED1450;
+$gris80:#ccc;
+$blanc:#fff;
+$grisclair:#C7C3C3;
+$grisnoir:#151515;
+
+html, body {
+  	height: 90%;
+}
+
+body {
+	font-family : 'Open Sans', sans-serif;
+	background-color : $gris99;
+	margin : 0;
+	padding : 0;
+}
+
+h1 {
+	font-weight : 100px;
+}
+
+nav {
+	height : 100px;
+	width : 100%;
+	font-size : 20px;
+	font-weight : 500;
+    border-bottom : 1px solid $gris80;
+    background-color : $blanc;	
+}
+
+.wrap {
+	width : 940px;
+	margin : auto;
+}
+
+.menu {
+	
+	.logo {
+		float : left;
+		width : 250px;
+		padding : 20px;
+	}
+	
+	li {
+		display : inline;
+		float : left;
+		padding : 40px 30px;
+		
+		a {
+			color : $gris40;
+		}
+
+		a:hover {
+			color : $rose;
+		}
+	}
+
+}
+
+ul li {
+	list-style-type : none;
+}
+
+.container {
+	width : 940px;
+	margin : 20px auto;
+
+	section {
+		display : inline-block;
+		width : 100%;
+
+		h1 {
+			font-weight : 300px;
+		} 
+
+		article {
+			font-size : 16px; 
+		}
+	}
+
+	h1 {
+		margin-bottom : 20px;
+	}
+}
+
+.wrapper {
+  	min-height : 100%;
+  	margin-bottom : -175px; 
+}
+
+.wrapper:after {
+  	content : "";
+  	display : block;
+    height : 175px; 
+}
+
+#slider {
+	overflow : hidden;
+	width : 940px;
+	height : 200px;
+	margin : 0 auto;
+	padding : 0;
+}
+
+.image-slider {
+	width : 1000px;
+	text-align : center;
+	height: 200px;
+	list-style : none;
+	float: left;
+
+	img {
+		width : 1000px;
+	}
+}
+
+#liste-images {
+	width : 2000px;
+	padding : 0;
+	margin : 0;
+}
+
+#news {
+	display : inline-block;
+	vertical-align : top;
+	width : 65%;
+
+	article {
+		margin-bottom : 2%;
+		border : 1px solid $gris80;
+    	background-color : $blanc;
+    	padding : 3%;
+    	border-radius : 5px;
+	}
+
+	h4 {
+		border-bottom : 1px solid $gris80;
+	}
+}
+
+.twitterbar {
+	width : 30%;
+	display : inline-block;
+	padding : 0 0 0 30px; 
+}
+
+// Bandeau partenaires 
+
+#bandeau-content {
+	width : 100%;
+	padding : 2% 0;
+	margin-top : 10px;
+	background-color : $grisclair;
+	text-align : center;
+
+	img {
+		margin : 0 1% 1% 1%;
+		padding : 0;
+		width : 8%;
+	}
+}
+
+ // Footer
+
+ .footer {
+	background-color : $grisnoir;
+	width : 100%;
+	height : 100px;
+	display : block;
+	text-align : center;
+	font-size : 18px;
+	padding-top : 40px;
+	margin-top : 0;
+
+	a {
+		color : $blanc;
+		margin-right : 10px;
+	}
+}
