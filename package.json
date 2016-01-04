@@ -1,0 +1,21 @@
+{
+  "name": "SMACSS-BEM-SASS",
+  "version": "0.0.0",
+  "description": "Atelier du 04/01/16 SMACSS-BEM-SASS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ali-samar/SMACSS-BEM-SASS.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ali-samar/SMACSS-BEM-SASS/issues"
+  },
+  "devDependencies": {
+    "gulp-sass": "~2.1.1"
+  }
+}
