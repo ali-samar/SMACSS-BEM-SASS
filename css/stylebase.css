@@ -1,0 +1,263 @@
+
+/* Suppression des marges par défaut des éléments html*/
+
+body, ul, p {
+	margin:0;
+	padding:0;
+}
+
+/* Corps de page */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color:#FCFCFC;
+}
+h1 {
+	font-weight:100;
+}
+
+/* Menu */
+
+nav {
+	height:100px;
+	width:100%;
+	font-size:20px;
+	font-weight:500;
+    border-bottom: 1px solid #CCC;
+    background-color:#fff;
+}
+nav .menu .logo {
+	float:left;
+	width:250px;
+	padding:20px;
+}
+nav .menu li {
+	display:inline;
+	float:left;
+	padding:40px 30px;
+
+}
+nav .menu li a {
+	color:#666;
+}
+nav .menu li a:hover {
+	color:#ED1450;
+}
+
+/* Contenu de la page */
+
+ul li {
+	list-style-type: none;
+}
+.wrap {
+	width:940px;
+	margin:auto;
+}
+.container {
+	width:940px;
+	margin:20px auto;
+}
+.container section h1 {
+	font-weight:300;
+}
+.container section {
+	display:inline-block;
+	width:100%;
+}
+.container section article {
+	font-size:16px;
+}
+.container .twitterbar {
+	width:30%;
+	display:inline-block;
+	padding:0 0 0 30px;
+}
+.container h1 {
+	margin-bottom: 20px;
+}
+
+/**
+* Accueil 
+* News + Twitter + Bandeau partenaires
+*/
+
+#news, .twitterbar {
+	display : inline-block;
+	vertical-align: top;
+	width:30%;
+}
+#news {
+	width:65%;
+}
+#news article {
+	margin-bottom: 2%;
+	border : 1px solid #CCC;
+    background-color:#fff;
+    padding : 3%;
+    border-radius: 5px;
+}
+#news h4 {
+	border-bottom: 1px solid #CCC;
+}
+
+/* Trombinoscope */
+
+.perso {
+	background-color:#fff;
+	border:1px solid #CCC;
+	padding:20px;
+	height:130px;
+}
+.perso img {
+	float:left;
+	margin-right:15px;
+}
+.perso .occupation {
+	padding-bottom:5px;
+}
+.ui.grid {
+	margin-bottom:20px
+}
+
+/* Bandeau partenaires */
+
+#bandeau-content img {
+	margin : 0 1% 1% 1%;
+	padding : 0;
+	width : 8%;
+}
+#bandeau-content {
+	width : 100%;
+	padding: 2% 0;
+	margin-top:10px;
+	background-color: #C7C3C3;
+	text-align: center;
+}
+
+/* Footer */
+
+.footer {
+	background-color:#151515;
+	width:100%;
+	height:100px;
+	display:block;
+	text-align:center;
+	font-size:18px;
+	padding-top:40px;
+	margin-top : 0;
+}
+.footer a {
+	color:#fff;
+	margin-right:10px;
+}
+
+/**
+* Sticky footer 
+* Reste toujours collé en bas, peu importe le contenu au dessus
+*/
+
+html, body {
+  	height: 90%;
+}
+.wrapper {
+  	min-height: 100%;
+  	margin-bottom: -175px; 
+}
+.wrapper:after {
+  	content: "";
+  	display: block;
+    height: 175px; 
+}
+
+/* Page formation */
+
+.massive.ui.button a {
+	color:#D01919;
+}
+
+.boutonsInfo {
+	width:50%;
+	margin:0 auto;
+	padding-top:40px;
+}
+
+/*Page formation */
+
+#contentin h1, #contentin a {
+	color:#fff;
+	position:relative;
+	top:80px;
+	left:80px;
+}
+#contentin h1:hover, #contentin a:hover {
+	color:#ED1450;
+}
+.promofutur16, .promofutur17, .overlay {
+	border: 1px solid #CCC;
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+.promofutur16, .promofutur17 {
+	margin-top:20px;
+}
+.overlay {
+	background-color:rgba(0,0,0,0.5);
+}
+.promofutur16 {
+	background-image: url('../img/promo1.jpg');
+	margin-right:15px;
+}
+.promofutur17 {
+	background-image: url('../img/promo2.jpg');
+	margin-left:15px;
+}
+
+/* Slider */
+
+/*#slider-surface {
+	width : 100%;
+	background: #FCFCFC;
+	padding : 0;
+	margin-bottom:20px;
+}*/
+#slider {
+	overflow : hidden;
+	width : 940px;
+	height : 200px;
+	margin : 0 auto;
+	padding : 0;
+}
+.image-slider {
+	width : 1000px;
+	text-align: center;
+	height: 200px;
+	list-style: none;
+	float: left;
+}
+#liste-images {
+	width : 2000px;
+	padding: 0;
+	margin: 0;
+}
+.image-slider img {
+	width : 1000px;
+}
+
+/* Page contact */
+
+.googlemap {
+	float:left;
+	padding-right:20px;
+}
+#infoContact {
+	display:inline-block;
+}
+.info h3 a {
+	text-decoration: none;
+	color:black;
+}
+.info h3 a:visited {
+	text-decoration:none;
+	color:black;
+}

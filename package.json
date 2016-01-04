@@ -1,0 +1,26 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Floune/SimplonMIP.git"
+  },
+  "author": "Amine El Ghayate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floune/SimplonMIP/issues"
+  },
+  "homepage": "https://github.com/Floune/SimplonMIP",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "mustache": "^2.2.1",
+    "semantic-ui-css": "^2.1.6",
+    "senna": "^0.4.1",
+    "gulp-sass": "^2.1.1"
+  }
+}
