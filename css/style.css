@@ -107,9 +107,9 @@ ul li {
   background-color: #C7C3C3;
   text-align: center; }
   #bandeau-content img {
-    margin: 0 1% 1% 1%;
+    margin: 0 5px;
     padding: 0;
-    width: 8%; }
+    height: 35px; }
 
 .footer {
   background-color: #151515;

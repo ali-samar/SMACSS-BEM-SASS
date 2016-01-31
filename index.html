@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
     <link rel="stylesheet" href="node_modules/senna/build/senna.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
@@ -26,39 +26,41 @@
         </nav>            
     </header>
     <section class="container wrapper" id="content">
-        <div id="content-default">
-            <div id="slider">
-                <ul id="liste-images">
-                    <li class="image-slider">
-                        <img src="../img/promo1.jpg" alt="Images de présentation" />
-                    </li>
-                    <li class="image-slider">
-                        <img src="../img/promo2.jpg" alt="Images de présentation" />
-                    </li>
-                </ul>
-            </div>
-            <section id="news">   
-                <h1>News de la promo !</h1>
-                <article>
-                    <h2>Titre 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum harum libero perspiciatis eveniet esse, et amet similique sunt maiores minima rerum qui ut aut, modi nesciunt minus dicta? Reiciendis.</p>
-                </article>
-                <article>
-                    <h2>Titre 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur architecto sed reprehenderit ratione ipsum blanditiis similique a fugit error consequatur quod quaerat earum assumenda tempora pariatur, laboriosam delectus, expedita amet.</p>
-                </article>
-            </section>
-            <aside class="twitterbar">
-                <a href="https://twitter.com/simplonMIP" data-widget-id="679289837170610176" height="400">Tweets de @simplonMIP</a>
-                <script>
-                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                </script>
-            </aside>
+        <div id="slider">
+            <ul id="liste-images">
+                <li class="image-slider">
+                    <img src="../img/promo1.jpg" alt="Images de présentation" />
+                </li>
+                <li class="image-slider">
+                    <img src="../img/promo2.jpg" alt="Images de présentation" />
+                </li>
+            </ul>
         </div>
-        <div class="push">
-        </div>
+        <section id="news">   
+            <h1>News de la promo !</h1>
+            <article>
+                <h2>Titre 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum harum libero perspiciatis eveniet esse, et amet similique sunt maiores minima rerum qui ut aut, modi nesciunt minus dicta? Reiciendis.</p>
+            </article>
+            <article>
+                <h2>Titre 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur architecto sed reprehenderit ratione ipsum blanditiis similique a fugit error consequatur quod quaerat earum assumenda tempora pariatur, laboriosam delectus, expedita amet.</p>
+            </article>
+        </section>
+        <aside class="twitterbar">
+            <a href="https://twitter.com/simplonMIP" data-widget-id="679289837170610176" height="400">Tweets de @simplonMIP</a>
+            <!--ul id="twitter_update_list"> <div id="tweet"></div></ul-->
+            <!--div id="bottom">
+                <a href="http://www.twitter.com/simplonMIP">
+                    <img src="images/follow.png" alt="follow me" class="follow-me" />
+                </a>
+            </div-->
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+        </aside>
     </section>
-    <div id="bandeau-content">
+    <div id="bandeau">
         <h4>Ils nous soutiennent !</h4>
         <img src="../img/active.png" alt="Logo Active"/>
         <img src="../img/allianz.jpg" alt="Logo Allianz"/>
@@ -97,6 +99,7 @@
 <script src="node_modules/semantic-ui-css/semantic.min.js"></script>
 <script src="node_modules/senna/build/senna.js"></script>
 <script src="node_modules/mustache/mustache.min.js"></script>
+<script type="text/javascript" src="js/twitter.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
